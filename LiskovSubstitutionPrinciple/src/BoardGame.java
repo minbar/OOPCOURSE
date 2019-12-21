@@ -1,7 +1,7 @@
 public class BoardGame {
 
 
-    private final DiceRoller diceRoller = new DiceRoller();
+    private final Roller diceRoller = new DoubleDiceRoller();
 
     public void movePlayer() {
         int numberRolled = diceRoller.rollDice();

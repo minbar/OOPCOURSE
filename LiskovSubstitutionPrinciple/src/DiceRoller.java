@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class DiceRoller {
+public class DiceRoller implements Roller {
 
     protected final Random random = new Random();
 
